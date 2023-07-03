@@ -21,13 +21,13 @@ public class Seleniunm {
 		WebElement Search =driver.findElement(By.id("searchDropdownBox"));
 	    Search.sendKeys("Wrist Watches");
 	    
-	    WebElement  Display= driver.findElement(By.name("WristWatches"));
+	    WebElement  Display= driver.findElement(By.id("twotabsearchtextbox"));
 	    Display.sendKeys("Analogue");
 	    
-	    WebElement Analogue=driver.findElement(By.name("BrandMaterials"));
+	    WebElement Analogue=driver.findElement(By.id("BrandMaterials"));
 	    Analogue.sendKeys("Leather");
 	    
-	    WebElement Leather=driver.findElement(By.name("Brand"));
+	    WebElement Leather=driver.findElement(By.id("Brand"));
 	    Leather.sendKeys("Titan");
 	    
 	    WebElement titan =driver.findElement(By.name("Discount"));
